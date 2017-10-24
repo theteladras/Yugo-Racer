@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Racer</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+        
+    </head>
+    
+    <body id="race">
+	<nav class="navbar navbar-top">
+        <h1><a href="https://en.wikipedia.org/wiki/Zastava_Koral">Yugo Car Racr</a></h1>
+    </nav>
+        <input type="button" class="btn btn-success" value="Race!" id="go">
+        <input type="button" class="btn btn-danger" value="Reset" id="reset">
+        <div id="finishline">
+			<div id="racetrack">
+				<img src="img/car1.png" alt="Green car" id="car1" class="car">
+				<img src="img/car2.png" alt="Red car" id="car2" class="car">
+			</div>
+		
+			<div id="racetrack2">
+				
+				<img src="img/car1.png" alt="Red car" id="car3" class="car">
+			</div>
+        </div>
+        <div id="raceInfoContainer" class="clearfix">
+            <h2>Results</h2>
+            <div id="raceInfo1" class="raceInfo">Car 1<span></span></div>
+            <div id="raceInfo2" class="raceInfo">Car 2<span></span></div>
+			<div id="raceInfo3" class="raceInfo">Car 3<span></span></div>
+        </div>
+        
+        <!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        
+        <script src="js/script.js"></script>
+    </body>
+    
+</html>
+
